@@ -1,0 +1,86 @@
+.sidebar{
+    min-height: 100vh;
+    background-color: #000633;
+    width: 515px;
+    margin: 0px;
+    position: relative;
+}
+.sidebar h4{
+    color:#0096C7;
+    font-size: 45px;
+    line-height: 53px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Montserrat';
+    padding-top: 95px;
+    margin-bottom: 50px;
+}
+.sidebar p{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+.back-button{
+   
+    position: absolute;
+    bottom: 60px;
+    left: 250px;
+    right: 241px;
+}
+.login-section{
+    background-color: #C0CDD3;
+    min-height: 100vh;
+    min-width: 1400px;
+
+   
+   
+}
+.login-box{
+    margin: 450px;
+    background-color: white;
+    width: 478px;
+    /* height: 408px; */
+    text-align: center;
+  
+}
+.login-box h4{
+    font-size: 32px;
+    color: #212121;
+    line-height: 39px;
+    font-family: 'Montserrat';
+    padding-top: 46px;
+    margin-bottom: 29px;
+
+}
+.login-box p{
+    color: #928B8B;
+    font-size: 12px;
+    
+    margin-bottom: 19px;
+}
+.login-box input{
+    margin-left: 23px;
+    margin-right: 23px;
+    width: 432px;
+    padding: 21px 25px;
+    margin-bottom: 23px;
+    font-size: 12px;
+    font-family: 'Montserrat';
+}
+.login-btn{
+    margin-left: 23px;
+    margin-right: 23px;
+    width: 432px;
+    padding-top: 21px !important;
+    padding-bottom: 21px !important;
+    
+    font-size: 12px;
+    font-family: 'Montserrat';
+    color: white;
+    background-color: #0096C7 !important;
+    margin-bottom: 46px !important;
+    
+}
