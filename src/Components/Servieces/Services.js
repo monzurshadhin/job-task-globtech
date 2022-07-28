@@ -17,7 +17,7 @@ const Services = () => {
       </div>
       <h2 className='service-title'>SERVICES</h2>
       <h4 className='service-sub-title'>We provides services to our clients</h4>
-      <Row xs={1} md={2} lg={3} className="g-4 my-4" >
+      <Row xs={1} md={2} lg={3} className="g-4 g-lg-5 my-4" >
           {services.map((service) => (
           
             <Col key={service.id}>

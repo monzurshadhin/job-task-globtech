@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Communications",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "img": "https://i.ibb.co/HCTwvtM/Ccc1.png"
+    },
+    {
+        "id": 2,
+        "name": "Inspired Design",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "img": "https://i.ibb.co/yQdNYXn/Ccc2.png"
+      },
+      {
+        "id": 3,
+        "name": "Happy Customers",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "img": "https://i.ibb.co/9c8QVbL/Ccc3.png"
+      }
+    ]

@@ -21,6 +21,19 @@
     height: 70px;
     width: 110px;
 }
+.home_body:hover .vector-img{
+    animation-name: run;
+  animation-duration: 1s;
+}
+@keyframes run {
+    0% {
+          transform: translateX(0);
+      }
+  
+      100% {
+          transform: translateX(500px);
+      }
+  }
 
 .home-title {
     font-size: 65px;
@@ -32,7 +45,7 @@
 }
 
 .home-details {
-    height: 190px;
+    /* height: 190px; */
     margin-bottom: 40px;
     font-weight: 400;
     font-family: 'Poppins';
@@ -66,4 +79,76 @@
     color: #8FE5FF;
     font-weight: 700;
     font-family: 'Poppins';
+}
+@media only screen and (max-width: 688px) {
+    .home-section{
+        margin-top: 70px;
+    }
+    .vector-img {
+    
+        margin-bottom: 32px;
+        height: 40px;
+        width: 60px;
+    }
+    .home-title {
+        font-size: 45px;
+        font-weight: 700;
+        font-family: 'Poppins';
+        line-height: 98px;
+        color: #28ACE2;
+       
+    }
+    .button-section {
+        /* margin-left: 210px; */
+        margin-bottom: 30px;
+        
+    }
+    .btn1 {
+        background: linear-gradient(265.22deg, #DEF77D 0%, #D0F344 100%);
+        box-shadow: inset -18px -60px 16px #B6CC63, inset 30px 30px 16px rgba(255, 255, 255, 0.5);
+        border-radius: 4px;
+        padding: 11px 33px;
+        font-size: 15px;
+        color: #00052F;
+        font-weight: 700;
+        font-family: 'Poppins';
+        margin-right: 10px;
+    }
+    .btn2 {
+        border: 1px solid #8FE5FF;
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        border-radius: 4px;
+        padding: 11px 31px;
+        font-size: 15px;
+        color: #8FE5FF;
+        font-weight: 700;
+        font-family: 'Poppins';
+    }
+   
+}
+@media only screen and (min-width: 689px) and (max-width: 1024px) {
+
+    .home-section{
+        margin-top: 70px;
+    }
+    .vector-img {
+    
+        margin-bottom: 32px;
+        height: 40px;
+        width: 60px;
+    }
+    .home-title {
+        font-size: 45px;
+        font-weight: 700;
+        font-family: 'Poppins';
+        line-height: 98px;
+        color: #28ACE2;
+       
+    }
+    .button-section {
+        margin-bottom: 30px;
+        
+    }
+   
 }

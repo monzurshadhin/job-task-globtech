@@ -7,6 +7,20 @@
     height: 71px;
     margin-top: 85px;
 }
+.services-body:hover .service-jet{
+    animation-name: run2;
+  animation-duration: 1s;
+}
+@keyframes run2 {
+    0% {
+          transform: translateX(0);
+      }
+  
+      100% {
+          transform: translateX(900px);
+      }
+  }
+
 .service-title{
     font-size: 36px;
     text-align: center;
@@ -43,7 +57,8 @@
 .card p{
     font-size: 14px;
     font-weight: 400;
-    text-align: center;
+    text-align:justify;
+    line-height: 28px;
     color: #000633;
     margin-bottom: 30px;
     font-family: 'Poppins';

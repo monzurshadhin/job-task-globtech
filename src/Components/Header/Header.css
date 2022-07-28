@@ -20,9 +20,21 @@
    color: #8FE5FF;
    font-family: 'Poppins';
    font-weight: 500;
+   transition:0.4s;
 }
 .link-section a:hover{
     background: -webkit-linear-gradient(45deg,#CAF231, #DEF67F);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-left: 20px;
+}
+@media only screen and (max-width: 688px) {
+    .navbar-section{
+        padding-top: 32px; 
+    }
+}
+@media only screen and (min-width: 689px) and (max-width: 1024px) {
+    .navbar-section{
+        padding-top: 32px; 
+    }
 }
