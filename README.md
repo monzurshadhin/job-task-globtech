@@ -1,8 +1,5 @@
 # How to install and run the project
 
-Live Site [Time Travel Watch Zone](https://time-travel-watch-zone.web.app/).
-
-
 ## What to do
 
 - you need to Clone the project from github.
