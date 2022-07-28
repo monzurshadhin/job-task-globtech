@@ -6,6 +6,7 @@ import '../Home/Home.css'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import vector from '../../Images/Vector.png'
+import { Container } from 'react-bootstrap';
 
 
 
@@ -15,8 +16,9 @@ const Home = () => {
     <div className='home_body'>
    
       <Header></Header>
+      <Container className='home-section'>
 <Row style={{width:'100%'}}>
-  <Col md={6} xs={12} lg={6}>
+  <Col md={12} xs={12} lg={6}>
     <div className="vector_section">
       <img className='vector-img' src={vector} alt="" />
     </div>
@@ -30,11 +32,11 @@ const Home = () => {
         <button className='btn2'>Our Mission</button>
         </div>
       </Col>
-      <Col md={6} xs={12} lg={6}>
-      <img className='home_image' src={img1} alt="" />
+      <Col md={12} xs={12} lg={6}>
+      <img className='img-fluid' src={img1} alt="" />
       </Col>
       </Row>
-     
+      </Container>
     </div>
   );
 };

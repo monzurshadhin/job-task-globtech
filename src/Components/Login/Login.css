@@ -1,9 +1,9 @@
 .sidebar{
     min-height: 100vh;
     background-color: #000633;
-    width: 515px;
+    /* width: 515px; */
     margin: 0px;
-    position: relative;
+    /* position: relative; */
 }
 .sidebar h4{
     color:#0096C7;
@@ -25,24 +25,26 @@
 }
 .back-button{
    
-    position: absolute;
-    bottom: 60px;
-    left: 250px;
-    right: 241px;
+    /* position: absolute; */
+    /* bottom: 60px;
+    left: 230px;
+    right: 241px; */
+    height: 550px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.login-body{
+    background-color: #C0CDD3;
 }
 .login-section{
-    background-color: #C0CDD3;
     min-height: 100vh;
-    min-width: 1400px;
-
-   
-   
 }
 .login-box{
-    margin: 450px;
+    /* margin: 450px; */
     background-color: white;
     width: 478px;
-    /* height: 408px; */
+    height: 408px;
     text-align: center;
   
 }
@@ -73,6 +75,7 @@
 .login-btn{
     margin-left: 23px;
     margin-right: 23px;
+    margin-top: 35px;
     width: 432px;
     padding-top: 21px !important;
     padding-bottom: 21px !important;
@@ -83,4 +86,57 @@
     background-color: #0096C7 !important;
     margin-bottom: 46px !important;
     
+}
+.fa-eye{
+    display: block;
+    margin-left: 370px;
+    margin-top: -60px;
+}
+@media only screen and (max-width: 688px) {
+    .login-box{
+        /* margin: 450px; */
+        background-color: white;
+        width: 100%;
+        height: 408px;
+        text-align: center;
+      
+    }
+    .login-box input{
+      
+        width: 90%;
+        padding: 21px 25px;
+        margin-bottom: 23px;
+        font-size: 12px;
+        font-family: 'Montserrat';
+        margin-left: 0px;
+        margin: auto;
+    }
+    .login-btn{
+        
+        width: 90%;
+        padding-top: 21px !important;
+        padding-bottom: 21px !important;
+        margin-left: 0px;
+        margin: auto;
+        font-size: 12px;
+        font-family: 'Montserrat';
+        color: white;
+        background-color: #0096C7 !important;
+        margin-bottom: 46px !important;
+        
+    }
+    .login-btn{
+        margin-top: 50px;
+    }
+    .fa-eye{
+        display: block;
+        margin-left: 270px;
+        margin-top: -38px;
+    }
+}
+
+@media only screen and (min-width: 689px) and (max-width: 1024px) {
+    .login-section{
+        margin: auto;
+    }
 }

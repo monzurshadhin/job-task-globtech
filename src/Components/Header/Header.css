@@ -1,14 +1,18 @@
 .logo-img{
     height: 42px;
     width: 205px;
-    margin-top: 88px;
-    margin-left: 210px;
+    /* margin-top: 88px; */
+    /* margin-left: 210px; */
     
 }
 .link-section{
-    margin-right: 237px;
-    margin-top: 92px;
+    /* margin-right: 237px; */
+    /* margin-top: 92px; */
 }
+.navbar-section{
+    padding-top: 92px; 
+}
+
 .link-section a{
     font-size: 21px;
    text-decoration: none;

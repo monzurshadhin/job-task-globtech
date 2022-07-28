@@ -1,17 +1,12 @@
 
 .home_body {
-    /* background-color: #00083E; */
     background-image: linear-gradient(90deg, #000427, #000949);
 }
 
-.home_image {
-    width: 704px;
-    height: 735px;
-    margin-top: 290px;
-    margin-bottom: 290px;
-    margin-right: 138px;
-}
 
+.home-section{
+    margin-top: 290px;
+}
 .color-text {
 
     background: -webkit-linear-gradient(45deg, #CAF231, #DEF67F);
@@ -21,8 +16,7 @@
 }
 
 .vector-img {
-    margin-top: 290px;
-    margin-left: 285px;
+    
     margin-bottom: 72px;
     height: 70px;
     width: 110px;
@@ -34,13 +28,11 @@
     font-family: 'Poppins';
     line-height: 98px;
     color: #28ACE2;
-    margin-left: 208px;
+   
 }
 
 .home-details {
     height: 190px;
-    width: 620px;
-    margin-left: 208px;
     margin-bottom: 40px;
     font-weight: 400;
     font-family: 'Poppins';
@@ -49,7 +41,7 @@
 }
 
 .button-section {
-    margin-left: 210px;
+    /* margin-left: 210px; */
     margin-bottom: 290px;
 }
 
@@ -69,7 +61,7 @@
     background-color: Transparent;
     background-repeat:no-repeat;
     border-radius: 4px;
-    padding: 16px 52px;
+    padding: 15px 51px;
     font-size: 15px;
     color: #8FE5FF;
     font-weight: 700;

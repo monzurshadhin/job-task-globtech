@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -7,9 +8,10 @@ import logo from '../../Images/globetech logo.png'
 import '../Header/Header.css'
 const Header = () => {
     return (
-        <div>
-             <Navbar expand="lg">
-           
+        <div className='navbar-section'>
+        
+             <Navbar expand="lg" variant="dark">
+             <Container>
                     <Navbar.Brand href="#home"><img className='logo-img' src={logo} alt="" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
@@ -20,8 +22,9 @@ const Header = () => {
 
                         </Nav>
                     </Navbar.Collapse>
-           
+                    </Container>
             </Navbar>
+       
         </div>
     );
 };
